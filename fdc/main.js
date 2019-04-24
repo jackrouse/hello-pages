@@ -53,7 +53,6 @@ $("body").on("click","#back",function(e){
     window.location.replace(backUrl)
   }
   function back(){
-      // window.sessionStorage.removeItem('backUrl')
       window.history.back()
   }
 });
